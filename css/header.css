@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+#header {
+  background: #101c26;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  left: 0;
+}
+.button {
+  display: flex;
+  gap: 35px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-1 {
+  background: transparent;
+  border: 1px solid #6b7280;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-2 {
+  background: #ffd600;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
