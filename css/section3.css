@@ -1,0 +1,90 @@
+/** @format */
+
+.section3 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+	.info {
+        margin-bottom: -80px;
+		h1 {
+            font-size: 30px;
+			gap: 10px;
+            width: 290px;
+            text-align: center;
+            padding-top: 15px;
+            height: 60px;
+            background: #F0E71433;
+			border-radius: 74px;
+			animation: appearance 1s ease-in-out forwards;
+		}
+		h2 {
+			font-family: ITC Avant Garde Gothic Std;
+			font-weight: 600;
+			font-size: 44px;
+			line-height: 56px;
+			animation: appearance 1s ease-in-out forwards;
+		}
+		p {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 32px;
+			letter-spacing: 0%;
+			color: #555c68;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			animation: appearance 1s ease-in-out forwards;
+		}
+		.carti {
+			.cart {
+                margin-block: 10px;
+                flex-direction: row;
+                display: flex;
+				img {
+					width: 80px;
+					height: 80px;
+				}
+				b {
+                    margin-left: 20px;
+                    width: 300px;
+					h3 {
+						font-weight: 600;
+						font-size: 24px;
+						line-height: 32px;
+						color: #000000;
+					}
+					p {
+						font-weight: 400;
+                        margin-top: 5px;
+						font-size: 16px;
+						line-height: 24px;
+						color: #555c68;
+					}
+				}
+			}
+		}
+	}
+    img{
+        width: 100%;
+    }
+}
+#section3{
+    position: relative;
+    .po_img{
+        position: absolute;
+        top: 670px;
+        right: 280px;
+        z-index: -1;
+    }
+}
+@keyframes appearance {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
