@@ -1,0 +1,61 @@
+#section2 {
+  padding: 100px 0;
+}
+
+#section2 .container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+#section2 .sec3 img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+
+#section2 .bagch {
+  position: absolute;
+  top: 500px;
+  bottom: -40px;
+  left: -40px;
+}
+
+#section2 .bagch img {
+  width: 160px;
+}
+
+#section2 .textt {
+  max-width: 500px;
+}
+
+#section2 .buttonn-1 {
+  background: #f5f5d8;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+#section2 .textt h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+#section2 .textt p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+#section2 .buttonn-2 {
+  background: #111;
+  color: #f0e714;
+  padding: 14px 26px;
+  border-radius: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
