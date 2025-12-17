@@ -65,19 +65,19 @@
 	color: #ffffff;
 }
 
-.textter {
+.textteredr {
 	display: flex;
 	gap: 70px;
 	margin-top: 30px;
 }
 
-.textter h2 {
+.textteredr h4 {
 	font-size: 38px;
 	font-weight: 700;
 	color: #ffe600;
 }
 
-.textter span {
+.textteredr span {
 	display: block;
 	margin-top: 5px;
 	font-size: 14px;

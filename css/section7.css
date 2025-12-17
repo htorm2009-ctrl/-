@@ -45,7 +45,7 @@
 		justify-content: center;
 		align-items: center;
 		gap: 40px;
-		.cart {
+		.cart2 {
 			background-color: #fff;
 			border-radius: 16px;
 			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -53,19 +53,19 @@
 			width: 260px;
 			transition: transform 0.3s ease;
 		}
-		.cart:hover {
+		.cart2:hover {
 			transform: translateY(-6px);
 		}
-		.cart img {
+		.cart2 img {
 			width: 64px;
 			height: 64px;
 		}
-		.cart h1 {
+		.cart2 h1 {
 			font-weight: 600;
 			font-size: 24px;
 			letter-spacing: 0%;
 		}
-		.cart p {
+		.cart2 p {
 			font-weight: 400;
 			font-size: 18px;
 			line-height: 20px;
