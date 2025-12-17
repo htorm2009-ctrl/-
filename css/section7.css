@@ -1,0 +1,77 @@
+/** @format */
+
+.section7 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100px;
+	.text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		h1 {
+			font-size: 30px;
+			gap: 10px;
+			width: 290px;
+			text-align: center;
+			padding-top: 15px;
+			height: 60px;
+			background: #f0e71433;
+			border-radius: 74px;
+			animation: appearance 1s ease-in-out forwards;
+		}
+		h2 {
+			font-family: ITC Avant Garde Gothic Std;
+			font-weight: 600;
+			font-size: 44px;
+			line-height: 56px;
+			animation: appearance 1s ease-in-out forwards;
+		}
+		p {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 28px;
+			text-align: center;
+			color: #555c68;
+		}
+	}
+	.carti {
+		margin-top: 100px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+		.cart2 {
+			background-color: #fff;
+			border-radius: 16px;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+			padding: 24px;
+			width: 260px;
+			transition: transform 0.3s ease;
+		}
+		.cart2:hover {
+			transform: translateY(-6px);
+		}
+		.cart2 img {
+			width: 64px;
+			height: 64px;
+		}
+		.cart2 h1 {
+			font-weight: 600;
+			font-size: 24px;
+			letter-spacing: 0%;
+		}
+		.cart2 p {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 20px;
+            margin-top: 10px;
+			letter-spacing: -1.1%;
+            color: #555c68;
+		}
+	}
+}
