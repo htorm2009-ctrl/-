@@ -29,6 +29,7 @@
 			gap: 10px;
 			justify-content: space-between;
 			align-items: flex-start;
+			opacity: 1;
 			h1 {
 				color: #ffffff;
 				font-size: 20px;
@@ -41,9 +42,13 @@
 				font-size: 16px;
 				font-weight: 400;
 				line-height: 24px;
+				opacity: 1;
 				ion-icon {
 					color: #f0e714;
 				}
+			}
+			li:hover {
+				color: #f0e714;
 			}
 		}
 	}

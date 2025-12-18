@@ -14,10 +14,12 @@
 			width: 450px;
 			font-weight: 500;
 			font-style: Medium;
-			font-size: 34px;
+			font-size: 44px;
 			line-height: 44px;
 			letter-spacing: 0%;
 			margin-bottom: 30px;
+			opacity: 0.9;
+			animation: appearance 1s ease-in-out forwards;
 		}
 		h2 {
 			width: 168px;
@@ -29,7 +31,8 @@
 			opacity: 0.9;
 			border-radius: 100px;
 			padding-top: 14px;
-			padding-right: 16px;
+			animation: appearance 1s ease-in-out forwards;
+			padding-right: 26px;
 			padding-bottom: 10px;
 			padding-left: 16px;
 			background: fixed #f0e71433;
@@ -39,9 +42,10 @@
 			font-weight: 400;
 			margin-bottom: 30px;
 			font-style: Regular;
+			animation: appearance 1s ease-in-out forwards;
 			width: 450px;
 			font-size: 16px;
-			opacity: 0.8;
+			opacity: 0.7;
 			line-height: 24px;
 			letter-spacing: -1.1%;
 		}
@@ -54,6 +58,7 @@
 			font-weight: 500;
 			margin-bottom: 24px;
 			font-style: Medium;
+			animation: appearance 1s ease-in-out forwards;
 			opacity: 0.8;
 			color: #555c68;
 			font-size: 14px;
@@ -80,8 +85,63 @@
 				font-family: Inter;
 				font-weight: 500;
 				font-style: Medium;
-				font-size: 14px;
+				font-size: 24px;
 				line-height: 24px;
+				letter-spacing: 0%;
+				opacity: 0.8;
+			}
+			input::placeholder {
+				color: white;
+				opacity: 0.8;
+				font-family: Inter;
+				font-weight: 500;
+				font-style: Medium;
+				font-size: 24px;
+				line-height: 24px;
+				letter-spacing: 0%;
+				opacity: 0.8;
+			}
+			input::-webkit-input-placeholder {
+				color: white;
+				opacity: 0.8;
+				font-family: Inter;
+				font-weight: 500;
+				font-style: Medium;
+				font-size: 24px;
+				line-height: 24px;
+				letter-spacing: 0%;
+				opacity: 0.8;
+			}
+			input::-moz-placeholder {
+				color: white;
+				opacity: 0.8;
+				font-family: Inter;
+				font-weight: 500;
+				font-style: Medium;
+				font-size: 24px;
+				line-height: 24px;
+				letter-spacing: 0%;
+				opacity: 0.8;
+			}
+			input::-ms-input-placeholder {
+				color: white;
+				opacity: 0.8;
+				font-family: Inter;
+				font-weight: 500;
+				font-style: Medium;
+				font-size: 24px;
+				line-height: 24px;
+				letter-spacing: 0%;
+				opacity: 0.8;
+			}
+			input:hover {
+				outline: none;
+				border: 1px solid #ffffff;
+				color: #ffffff;
+				opacity: 1;
+			}
+			input:focus {
+				outline: none;
 			}
 			div {
 				width: 350px;
@@ -106,5 +166,15 @@
 			line-height: 24px;
 			letter-spacing: 0%;
 		}
+	}
+}
+@keyframes appearance {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }
