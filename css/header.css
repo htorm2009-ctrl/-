@@ -1,3 +1,4 @@
+/* нужно добавить анимации */
 .header {
   display: flex;
   justify-content: space-between;
@@ -15,6 +16,7 @@
 .button {
   display: flex;
   gap: 35px;
+  
 }
 
 .nav {

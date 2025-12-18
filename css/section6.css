@@ -1,6 +1,7 @@
 /** @format */
 
 .section6 {
+	margin-block: 100px;
 	display: flex;
 	justify-content: center;
 	gap: 100px;

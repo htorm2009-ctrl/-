@@ -16,6 +16,7 @@
 			font-size: 30px;
 			gap: 10px;
 			width: 290px;
+			font-family: sans-serif;
 			text-align: center;
 			padding-top: 15px;
 			height: 60px;
@@ -24,7 +25,7 @@
 			animation: appearance 1s ease-in-out forwards;
 		}
 		h2 {
-			font-family: ITC Avant Garde Gothic Std;
+			font-family: sans-serif;
 			font-weight: 600;
 			font-size: 44px;
 			line-height: 56px;
@@ -63,15 +64,17 @@
 		.cart2 h1 {
 			font-weight: 600;
 			font-size: 24px;
+			font-family: sans-serif;
 			letter-spacing: 0%;
 		}
 		.cart2 p {
 			font-weight: 400;
 			font-size: 18px;
+			font-family: sans-serif;
 			line-height: 20px;
-            margin-top: 10px;
+			margin-top: 10px;
 			letter-spacing: -1.1%;
-            color: #555c68;
+			color: #555c68;
 		}
 	}
 }
