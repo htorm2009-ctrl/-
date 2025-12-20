@@ -53,7 +53,6 @@
 .button-h1:hover {
 	color: #000;
 	background: #ffffff;
-	transition: 0.3s ease-in-out all;
 }
 
 .button-h1 ion-icon {
@@ -71,7 +70,7 @@
 	font-size: 16px;
 	cursor: pointer;
 	font-family: sans-serif;
-	transition: transform 0.3s ease;
+	transform: 0.3s ease;
 	border-radius: 30px;
 }
 
@@ -81,7 +80,7 @@
 	}
 	color: #000;
 	background: #ffffff;
-	transition: 0.3s ease all;
+	transform: 0.3s ease all;
 }
 
 .button-h2 ion-icon {
